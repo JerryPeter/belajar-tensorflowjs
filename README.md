@@ -2,7 +2,9 @@
 
 Code yang ada pada github ini merupakan script yang digunakan pada playlist Youtube tentang pembelajaran TENSORFLOW.JS
 Untuk teman-teman yang ingin belajar tentang Tensroflow.js dari mulai dari bisa melihat video tutorial yang saya buat
-pada playlist Youtube berikut : https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPIQYP
+pada playlist Youtube berikut : 
+
+https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPIQYP
 
 ## Pembagian script
 
