@@ -6,6 +6,11 @@ pada playlist Youtube berikut :
 
 https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPIQYP
 
+Instagram: https://www.instagram.com/JerryPeter
+Facebook: https://www.facebook.com/jerrypeter
+Twitter: https://twitter.com/JerryPeter
+Youtube: JerryPeter
+
 ## Pembagian script
 
 ```javascript
@@ -16,3 +21,4 @@ https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPI
 ## Catatan
 Seluruh video mengukana bahasa indonesia,
 Untuk teman2 yang sedang mempelajari Tensorflow.js semoga bermanfaat
+
