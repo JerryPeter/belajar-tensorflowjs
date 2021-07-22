@@ -6,7 +6,7 @@ pada playlist Youtube berikut : https://www.youtube.com/watch?v=-SCToOR9zjg&list
 
 ## Pembagian script
 
-```python
+```javascript
 00. Dasar berkenalan dengan Tensorflow.js 
 01. Proses implementasi mengunakan Tensorflow.js
 ```
