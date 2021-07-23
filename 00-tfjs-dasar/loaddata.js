@@ -21,4 +21,3 @@ loadData(TRAIN_DATA);
 loadData(TRAIN_TARGET);
 loadData(TEST_DATA);
 loadData(TEST_TARGET);
-
