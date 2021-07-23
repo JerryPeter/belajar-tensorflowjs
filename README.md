@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPI
 
 ## Pembagian script
 
-```javascript
+```plaintext
 00. Dasar berkenalan dengan Tensorflow.js 
 01. Proses implementasi mengunakan Tensorflow.js
 ```
@@ -18,6 +18,18 @@ https://www.youtube.com/watch?v=-SCToOR9zjg&list=PLBKh3ZtuAtGFdmchLIvFxBFgnqCWPI
 Seluruh video mengukana bahasa indonesia,
 Untuk teman2 yang sedang mempelajari Tensorflow.js semoga bermanfaat
 
+## Installation
+
+Clone project ke local folder mengunakan gitbash
+
+```bash
+mkdir tensorflow
+cd tensorflow
+git clone https://github.com/JerryPeter/belajar-tensorflowjs.git
+```
+
+
+
 ## Social Media
 ```
 Instagram: https://www.instagram.com/JerryPeter
@@ -25,4 +37,3 @@ Facebook: https://www.facebook.com/jerrypeter
 Twitter: https://twitter.com/JerryPeter
 Youtube: JerryPeter
 ```
-
