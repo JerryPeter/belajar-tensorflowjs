@@ -43,8 +43,10 @@ function proses(){
 
     // -- STEP 04: Membuat Model
     const model = tf.sequential();
+    const opt = tf.train.adam(0.2);
     model.add(tf.layers.dense({inputShape : [1], units: 1}));
-    model.compile({optimizer: 'sgd', loss: 'meanAbsoluteError'});
+    model.compile({optimizer: opt, loss: 'meanAbsoluteError'});
+    model.summary();
 
     // -- STEP 05. Melatih Model
     //- Melatih Model 
@@ -54,28 +56,28 @@ function proses(){
                 trainTensors.x, 
                 trainTensors.y, 
                 {
-                    epochs: 5
+                    epochs: 1
                 }
          );   
          // KERNEL & BIAS
-         console.log(`================== ITERASI ${i} ====`)
-         console.log("KERNEL");
-         model.layers[0].getWeights()[0].print();  
-         console.log("BIAS");
-         model.layers[0].getWeights()[1].print();     
-
+        //  console.log(`================== ITERASI ${i} ====`)
+        //  console.log("KERNEL");
+        //  model.layers[0].getWeights()[0].print();  
+        //  console.log("BIAS");
+        //  model.layers[0].getWeights()[1].print();     
+         
          //- Evaluasi Model
-         console.log("===== EVALUASI ${i} =====");
+         console.log(`===== EVALUASI ${i} =====`);
+         console.log(hasil.history.loss[0]);
          model.evaluate(testTensors.x, testTensors.y).print();
         }
-
     }
 
     train().then(()=>{
         // -- STEP 06. Prediksi
-        const var1 = 20;
-        const var2 = 25;
-        const var3 = 30;
+        const var1 = 1;
+        const var2 = 6;
+        const var3 = 10;
                 
         console.log("===== PREDIKSI =====");
         model.predict(tf.tensor2d([[var1],[var2],[var3]])).print();
